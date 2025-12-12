@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday 🎉</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="card">
+        <h1>🎉 Happy Birthday! 🎉</h1>
+        <p class="msg">
+            Wishing you a day full of happiness, laughs, and beautiful moments.  
+            You deserve all the love and joy today! 💖
+        </p>
+
+        <button onclick="showWish()">Click to Reveal a Special Message</button>
+
+        <p id="hiddenMsg" class="hidden">
+            🌟 You are an amazing person, and I hope this year brings you  
+            endless smiles and blessings. ✨ Enjoy your day! 🎂💐
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
